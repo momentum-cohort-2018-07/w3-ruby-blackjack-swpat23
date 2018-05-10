@@ -96,3 +96,9 @@ You have $90 and bet $10.
 ## Files
 
 Starter files have been provided in the 'starter\_files' folder. There is only a set of directories, a `Rakefile`, and a `blackjack.rb` file which should be run to start your game. No tests are provided, but you should write tests to help you along the way.
+
+## References
+
+- [Rules of Blackjack](https://en.wikipedia.org/wiki/Blackjack)
+- [More rules of Blackjack](http://www.pagat.com/banking/blackjack.html)
+- [And more rules](http://wizardofodds.com/games/blackjack/basics/#toc-Rules)
