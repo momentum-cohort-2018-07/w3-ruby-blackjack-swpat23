@@ -1,8 +1,9 @@
-# Ruby Weekend Project 1: Blackjack
+# Ruby Blackjack
 
+## Requirements
 
-## Project Requirements
-For this weekly assignment, you will create a one-player-against-the-computer game of blackjack. You will take your notes from your "Designing classes for blackjack" activity to use in writing the classes and other code for this game.
+For this weekend project, you will create a one-player-against-the-computer game of blackjack. The game should be playable from the terminal
+
 
 The following restrictions apply to your game:
 
@@ -15,7 +16,7 @@ Traditionally in blackjack, the dealer has one card visible. Implementing this c
 
 ### Getting user input
 
-One thing you will have to do in this project is get user input from the command line. In Ruby, the [`gets` method](https://ruby-doc.org/core-2.4.1/Kernel.html#method-i-gets) will let you do this. An example:
+One thing you will have to do in this project is get user input from the command line. In Ruby, the [`gets` method](https://ruby-doc.org/core-2.5.1/Kernel.html#method-i-gets) will let you do this. An example:
 
 ```irb
 irb(main):001:0> name = gets
@@ -95,10 +96,16 @@ You have $90 and bet $10.
 
 ## Files
 
-Starter files have been provided in the 'starter\_files' folder. There is only a set of directories, a `Rakefile`, and a `blackjack.rb` file which should be run to start your game. No tests are provided, but you should write tests to help you along the way.
+Starter files have been provided in the `starter_files` folder. In that folder you'll find only a set of directories, a `Rakefile`, and a `blackjack.rb` file. You may add additional files for other classes. To start your game, run `ruby bin/blackjack.rb`.
+
+You can reuse or build upon the code you wrote for your lab assignment on Card and Deck classes.
+
+No tests are provided, but you can consider writing tests to help you along the way. This is optional!
 
 ## References
 
 - [Rules of Blackjack](https://en.wikipedia.org/wiki/Blackjack)
 - [More rules of Blackjack](http://www.pagat.com/banking/blackjack.html)
 - [And more rules](http://wizardofodds.com/games/blackjack/basics/#toc-Rules)
+- [Getting started with Minitest](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
+- [Minitest documentation](https://github.com/seattlerb/minitest)
