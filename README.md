@@ -2,7 +2,7 @@
 
 ## Requirements
 
-For this weekend project, you will create a one-player-against-the-computer game of blackjack. The game should be playable from the terminal
+For this weekend project, you will create a one-player-against-the-computer game of blackjack. The game should be playable from the terminal.
 
 
 The following restrictions apply to your game:
